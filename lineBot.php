@@ -147,7 +147,7 @@ class Linebot {
 		$userId = $webhook->{"events"}[0]->{"source"}->{"userId"}; 
 		return $userId;
 	}
-<?php
+
 	$strTo = "carabaocothitsupport@cbd.freshservice.com";
 	$strSubject = "Testing send mail";
 	$strHeader = "From: ruttanon.n@carabao.co.th";
@@ -161,5 +161,5 @@ class Linebot {
 	{
 		echo "Mail cannot send.";
 	}
-?>
+
 }
