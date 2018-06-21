@@ -17,8 +17,4 @@ class Setting {
 		$api = "https://api.line.me/v2/bot/message/push";
 		return $api;
 	}
-	public function token(){
-		$token = "uwUnnXn7E9svH04B8y4yoL22TMBf5RAGQIaFUX247rV";
-		return $token;
-	}
 }
